@@ -22,12 +22,12 @@ public class Main {
         Order order = new Order(1001, 77, Currency.USD, "iPad adapret", "Electro", user8);
         Order order1 = new Order(1002, 2000, Currency.USD, "IR USB port. 200 pcs", "Electro", user6);
         Order order2 = new Order(1003, 9, Currency.USD, "USB cable", "Electro", user5);
-        Order order3 = new Order(1004, 177, Currency.USD, "Windows 10", "Soft", user1);
+        Order order3 = new Order(1004, 177, Currency.EURO, "Windows 10", "Soft", user1);
         Order order4 = new Order(1005, 1600, Currency.USD, "TV set", "Electro", user);
         Order order5 = new Order(1006, 77, Currency.USD, "Jacket", "Closers", user2);
         Order order6 = new Order(1007, 77, Currency.USD, "T-short", "Closers", user3);
         Order order7 = new Order(1008, 600, Currency.USD, "Macbook pro", "Electro", user4);
-        Order order8 = new Order(1009, 199, Currency.USD, "Wheel", "Automotiv", user7);
+        Order order8 = new Order(1009, 199, Currency.EURO, "Wheel", "Automotiv", user7);
         Order order9 = new Order(1010, 77, Currency.USD, "iPhone case", "Electro", user9);
         Order order10 = new Order(1011, 50, Currency.USD, "TV set", "Electro", user);
         Order order11 = new Order(1012, 50, Currency.USD, "TV set", "Electro", user);
@@ -187,6 +187,8 @@ public class Main {
 
             System.out.println(orders.get(i));
         }
+
+
 
 
 
